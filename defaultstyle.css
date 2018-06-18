@@ -1,0 +1,508 @@
+/*
+
+VERDE:  a7d69c
+
+LARANJA ESCURO: f3a05a
+
+LARANJA MÉDIO: ffcaa9
+
+LARANJA MÉDIO MÉDIO: f0ba98;
+
+LARANJA CLARO: ffcaa9
+
+CREME: fff1de
+
+LARANJA BEM ESCURO: c47b3e;
+
+VERDE MAIS ESCURO: 82b477;
+
+ */
+
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ @media screen and (max-width: 879px){
+
+
+/*CABEÇALHO*/
+header{
+	height: 10%;
+	padding: 10% 5%;
+	background-color: #a7d69c;
+}
+
+#headertitle h1{
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+}
+
+#headertitle p{
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+}
+
+
+ #navopts a{
+ 	display: inline-block;
+ 	background-color: #fff1de;
+ 	border-radius: 8px;
+ 	margin: 3%;
+ 	font-family:'Fredoka One', cursive;
+    text-decoration: none;
+ }
+
+
+
+#nvhome a{
+ 	margin: 3%;
+ 	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 5%;
+	width: 80%;
+ 	
+ } 
+
+ #nvworks a{
+ 	margin: 3%;
+ 	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 5%;
+	width: 80%;
+ 	
+ } 
+  #nvabout a{
+  	margin: 3%;
+	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 5%;	
+	width: 80%;
+ } 
+  #nvcont a{
+  	margin: 3%;
+	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 5%;
+	width: 80%;
+ } 
+
+  #navopts a:hover{
+  	background-color: #ffcaa9;
+ 	color:#82b477;
+ 	transition: 0.5s;
+ }
+
+ .active {
+ 	background-color: #ffcaa9;
+ 	color:#82b477;
+ }
+
+/*CABEÇALHO FIM*/
+
+/*LATEST WORKS*/
+
+#lwtexto h2{
+	padding: 8%;
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+	text-align: center;
+}
+
+#lwtexto h4{
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #f0ba98;
+ 	text-align: center;
+}
+
+#maiorimg img{
+	margin: 10%;
+	height: 70%;
+	width: 70%;
+}
+
+#lwimg img{
+	margin: 10%;
+	height: 70%;
+	width: 70%;
+}
+
+/*LATEST WORKS FIM*/
+
+/*ABOUT*/
+
+.me{
+	padding: 10%;
+	text-align: center;
+}
+
+.me h2{
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+}
+
+.me p{
+	padding: 10% 0%;
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #f3a05a;
+}
+
+#aboutme img{
+	padding: 0% 15%;
+	height: 70%;
+	width: 70%;
+
+}
+/*ABOUT FIM*/
+
+/*ALL WORKS*/
+
+.titleworks{
+	margin: 10%;
+	text-align: center;
+}
+
+.titleworks h2{
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+}
+
+#allworksp{
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #f3a05a;
+}
+
+#containerimgs img {
+	padding: 0% 15%;
+   width: 70%;
+   height: 70%;
+
+}
+
+/*ALL WORKS FIM*/
+
+/*CONTACT*/
+
+#contato{
+	margin: 20% 10%;
+	text-align:center;
+	background: #a7d69c;
+}
+
+#contato h2{
+	padding-top: 10%;
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+}
+
+#contato p{
+	padding: 8%;
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+}
+
+#contato a {
+	text-align: center;
+	text-decoration: none;
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+
+}
+
+form span{
+    font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+}
+
+/*CONTACT FIM*/
+
+
+/*FOOTER*/
+
+ footer{
+ 	width: 100%;
+ 	background-color: #a7d69c; 
+ }
+
+ #socmedia{
+ 	padding-left: 15%;
+ 	padding-top: 5%;
+ }
+
+ #socmedia img{
+ height: 10%;
+ width: 10%;
+ }
+
+/*FOOTER FIM*/
+
+
+} /*resp mobile fim*/
+
+/*_________________________________________________________________________________*/
+
+/*TELAS GRANDES*/
+ @media only screen and (min-width: 880px){
+/*CABEÇALHO*/
+
+    header{
+    padding: 30px 20px;
+    display: grid;
+ 	grid-template-columns: 50% 50%;
+ 	background-color: #a7d69c;
+}
+ 	#navbar div{
+ 	display: grid;
+ 	grid-template-columns:  200px 200px;
+ 	grid-gap: 20px;
+ 	grid-template-areas: 
+ 	"home works"
+ 	"about contact"; 
+ }
+
+ #headertitle {
+ 	padding: 2vw 1vh;
+ 	font-family:'Fredoka One', cursive;
+ }
+
+
+ #headertitle h1{
+   color: #f3a05a;
+   font-size: 35px;
+ }
+
+ #headertitle p{
+ 	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+
+ }
+
+/*CABEÇALHO FIM*/
+
+
+/*MENU SUPERIOR*/
+
+ #navopts a{
+ 	background-color: #fff1de;
+ 	border-radius: 8px;
+ 	font-family:'Fredoka One', cursive;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+
+
+ #nvhome a{
+	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+ } 
+
+ #nvworks a{
+ 	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+ 	
+ } 
+  #nvabout a{
+	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;	
+	padding: 10px;
+ } 
+  #nvcont a{
+	color: #f3a05a;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+ } 
+
+  #navopts a:hover{
+  	background-color: #ffcaa9;
+ 	color:#82b477;
+ 	transition: 0.5s;
+ }
+
+ #active {
+ 	background-color: #ffcaa9;
+ 	color:#82b477;
+ }
+ 
+ /*MENU SUPERIOR FIM */
+
+
+/*HOME*/
+/*PARTE DA SECTION DE LATEST WORKS*/
+#latestW{
+	margin: 4vh 3vw;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+#lwtexto{
+	margin: 50px;
+
+}
+
+#lwtexto h2{
+    font-family:'Fredoka One', cursive;
+    color: #f3a05a;
+    font-size: 30px;
+}
+
+#lwtexto h4{
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #f0ba98;
+}
+
+#maiorimg img{
+	padding-left: 4vw;
+	width: 80%;
+	height: 100%;
+}
+
+#lwimg img{
+	margin-top: 100px;
+    height: 30%;
+    width: 30%
+}
+
+
+/*LATEST WORKS FIM*/
+
+
+/*ABOUT*/
+#aboutme{
+	margin: 4vh 3vw;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+
+#aboutme img{
+	padding-left: 15%;
+	width: 80%;
+	height: 100%;
+}
+
+.me{
+	padding-top: 20%;
+	color: #f3a05a;
+}
+
+.me h2{
+	font-family:'Fredoka One', cursive;
+	font-size: 1.9em;
+}
+
+/*ABOUT END*/
+
+
+/*WORKS*/
+.titleworks h2{
+	font-family:'Fredoka One', cursive;
+	font-size: 1.9em;
+	padding: 5% 0;
+	color: #f3a05a;
+	text-align: center;
+}
+
+ #allworksp{
+ 	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #f3a05a;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+
+ }
+
+.mothercontainer{
+	padding-left: 200px;
+	padding-bottom: 100px;
+	max-width: 75%;
+}
+
+#containerimgs img {
+   align-self: center;
+   width: 200px;
+   height: 200px;
+
+}
+
+#containerimgs {
+	background-color: #fff1de;
+	padding: 0 200px ;
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-gap:20px 20px;
+	max-width:100%;
+	justify-content: center;
+}
+
+/*CONTATO*/
+#contato{
+	margin: 90px 300px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align:center;
+	background: #a7d69c;
+}
+
+#contato h2{
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+}
+
+#contato p{
+	padding: 50px 50px;
+	font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+ 	font-size: 18px;
+}
+
+#contato a {
+	text-align: center;
+	text-decoration: none;
+	font-family:'Fredoka One', cursive;
+	color: #f3a05a;
+
+}
+
+form {
+	text-align: left;
+	padding-left:50px;
+}
+
+form span{
+    font-family: 'IM FELL French Canon Regular', serif;
+ 	color: #fff1de;
+}
+/*CONTATO FIM*/
+
+
+/*FOOTER: O MESMO PARA TODAS AS PAGES*/
+
+
+ footer{
+ 	width: 100%;
+ 	background-color: #a7d69c; 
+ }
+
+ #socmedia{
+ 	padding-left: 30px;
+ }
+
+ #socmedia img{
+ height: 30px;
+ width: 30px;
+ }
+
+
+ }
+ /*resp fim*/
